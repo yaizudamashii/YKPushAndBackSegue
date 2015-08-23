@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* YKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YKAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* YKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YKViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,6 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B685AF6B1B8A84A8003EDFA6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B685AF6A1B8A84A8003EDFA6 /* FirstViewController.m */; };
+		B685AF6E1B8A84BF003EDFA6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B685AF6D1B8A84BF003EDFA6 /* SecondViewController.m */; };
 		E462A156B90A83905B01EE1A /* Pods_YKPushAndBackSegue_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57847F2FB2C288002C3363B /* Pods_YKPushAndBackSegue_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -40,7 +41,7 @@
 		4F15209C316B3D985BDB7D9A /* Pods-YKPushAndBackSegue_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKPushAndBackSegue_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKPushAndBackSegue_Tests/Pods-YKPushAndBackSegue_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5286C5DEDAB2861F6622202A /* Pods_YKPushAndBackSegue_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKPushAndBackSegue_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		535C7B183B1B7E5FCE0331A9 /* YKPushAndBackSegue.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YKPushAndBackSegue.podspec; path = ../YKPushAndBackSegue.podspec; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* YKPushAndBackSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = YKPushAndBackSegue.app; path = YKPushAndBackSegue_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* YKPushAndBackSegue_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKPushAndBackSegue_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -50,10 +51,8 @@
 		6003F59B195388D20070C39A /* YKPushAndBackSegue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YKPushAndBackSegue-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* YKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* YKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* YKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* YKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = YKPushAndBackSegue_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* YKPushAndBackSegue_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKPushAndBackSegue_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -64,6 +63,10 @@
 		72F9EFACE9D3CD305A0D958F /* Pods-YKPushAndBackSegue_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKPushAndBackSegue_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKPushAndBackSegue_Example/Pods-YKPushAndBackSegue_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9B5FFB517858051A45729E4F /* Pods-YKPushAndBackSegue_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKPushAndBackSegue_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKPushAndBackSegue_Example/Pods-YKPushAndBackSegue_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B685AF691B8A84A8003EDFA6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B685AF6A1B8A84A8003EDFA6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B685AF6C1B8A84BF003EDFA6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B685AF6D1B8A84BF003EDFA6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F57847F2FB2C288002C3363B /* Pods_YKPushAndBackSegue_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKPushAndBackSegue_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,8 +111,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* YKPushAndBackSegue.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* YKPushAndBackSegue_Example.app */,
+				6003F5AE195388D20070C39A /* YKPushAndBackSegue_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,8 +136,10 @@
 				6003F59C195388D20070C39A /* YKAppDelegate.h */,
 				6003F59D195388D20070C39A /* YKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YKViewController.h */,
-				6003F5A6195388D20070C39A /* YKViewController.m */,
+				B685AF6C1B8A84BF003EDFA6 /* SecondViewController.h */,
+				B685AF6D1B8A84BF003EDFA6 /* SecondViewController.m */,
+				B685AF691B8A84A8003EDFA6 /* FirstViewController.h */,
+				B685AF6A1B8A84A8003EDFA6 /* FirstViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,7 +218,7 @@
 			);
 			name = YKPushAndBackSegue_Example;
 			productName = YKPushAndBackSegue;
-			productReference = 6003F58A195388D20070C39A /* YKPushAndBackSegue.app */;
+			productReference = 6003F58A195388D20070C39A /* YKPushAndBackSegue_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* YKPushAndBackSegue_Tests */ = {
@@ -234,7 +239,7 @@
 			);
 			name = YKPushAndBackSegue_Tests;
 			productName = YKPushAndBackSegueTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* YKPushAndBackSegue_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -390,9 +395,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B685AF6E1B8A84BF003EDFA6 /* SecondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* YKAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* YKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B685AF6B1B8A84A8003EDFA6 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

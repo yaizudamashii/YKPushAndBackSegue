@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_YKPushAndBackSegue_Tests_YKPushAndBackSegue : NSObject
+@end
+@implementation PodsDummy_Pods_YKPushAndBackSegue_Tests_YKPushAndBackSegue
+@end

@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17ED0250364701F729F28DB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B90DBDD334B89A423890093 /* Foundation.framework */; };
+		1E80E8B098B236EFD9089EF8 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC87F143E6DCDE3A594D5A3E /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-dummy.m */; };
+		20D2FDAD75C56F1360E11BBF /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE9D830C0789CBC64034D2 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-dummy.m */; };
+		230610BA9EA08B51ED45EA65 /* Pods-YKPushAndBackSegue_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 747C79D1CAB11E0611AB273E /* Pods-YKPushAndBackSegue_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2591C2A2331450DA1FEA461A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B90DBDD334B89A423890093 /* Foundation.framework */; };
+		722EA45CB037D10FA844B4DC /* Pods-YKPushAndBackSegue_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C8BC9B154D4860097709A9 /* Pods-YKPushAndBackSegue_Tests-dummy.m */; };
+		8561A730D10B4CF9A7E0AD48 /* YKPushAndBackSegue.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A8C670B6350219AAD90823F /* YKPushAndBackSegue.bundle */; };
+		97E10E9CD6F6C752F6EF029F /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 036E341CEA6FDE5CCBD76AB5 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2A002EDE61CEF8F4F54C2E8 /* Pods-YKPushAndBackSegue_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5789AF4AEB058B0807B28C /* Pods-YKPushAndBackSegue_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A86A430D7DAA3C8EFFD5D4E4 /* Pods-YKPushAndBackSegue_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFE22B2F44EB505551ED020 /* Pods-YKPushAndBackSegue_Example-dummy.m */; };
+		AB05C122DF3B4A6BB375FF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B90DBDD334B89A423890093 /* Foundation.framework */; };
+		ABA5F20347A38969BCE2E488 /* YKPushAndBackSegue.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14BD12024F6B84CA8662B402 /* YKPushAndBackSegue.bundle */; };
+		B685AF651B8A7D2B003EDFA6 /* BackSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = B685AF611B8A7D2B003EDFA6 /* BackSegue.h */; };
+		B685AF661B8A7D2B003EDFA6 /* BackSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B685AF621B8A7D2B003EDFA6 /* BackSegue.m */; };
+		B685AF671B8A7D2B003EDFA6 /* PushSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = B685AF631B8A7D2B003EDFA6 /* PushSegue.h */; };
+		B685AF681B8A7D2B003EDFA6 /* PushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B685AF641B8A7D2B003EDFA6 /* PushSegue.m */; };
+		D83C00D67EB1CF311572C968 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFD7F3D698B1B5629812167 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54C58E2E279D0CEBEC6D08A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B90DBDD334B89A423890093 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30C3955B23D747A0ABEA3F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037C7614DBDBC31FCF4D8258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81AF495CAEC0E5465C0245B4;
+			remoteInfo = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue";
+		};
+		D82669F0898643D65DFE802B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037C7614DBDBC31FCF4D8258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F304819C803265FA523271FF;
+			remoteInfo = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-YKPushAndBackSegue";
+		};
+		DA3CBBDA4D42A0C3686C079A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037C7614DBDBC31FCF4D8258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6677D932A3ECA3AB623E707E;
+			remoteInfo = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue";
+		};
+		E466A5069033E3B81F8B3208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037C7614DBDBC31FCF4D8258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355CECF9C01BEAF51DA3C4D8;
+			remoteInfo = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-YKPushAndBackSegue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036E341CEA6FDE5CCBD76AB5 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-umbrella.h"; sourceTree = "<group>"; };
+		0392780E9DE442A18496CA9E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		14BD12024F6B84CA8662B402 /* YKPushAndBackSegue.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKPushAndBackSegue.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A06B37874E913FB90FA0DA /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-Private.xcconfig"; sourceTree = "<group>"; };
+		1C5031BB166CCD2BAF4DF215 /* Pods-YKPushAndBackSegue_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YKPushAndBackSegue_Example-resources.sh"; sourceTree = "<group>"; };
+		1E159FF2DBDAF3F84BFE6F7E /* Pods_YKPushAndBackSegue_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKPushAndBackSegue_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EADFA423ABC548AF37E7EAB /* Pods-YKPushAndBackSegue_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YKPushAndBackSegue_Example-frameworks.sh"; sourceTree = "<group>"; };
+		257C4CA0C09AF6F0079B9C6D /* Pods_YKPushAndBackSegue_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKPushAndBackSegue_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFD7F3D698B1B5629812167 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-umbrella.h"; path = "../Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-umbrella.h"; sourceTree = "<group>"; };
+		2B90DBDD334B89A423890093 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3496392910C0ADC0822DF646 /* YKPushAndBackSegue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKPushAndBackSegue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9FF31985509DE10BE0DC34 /* Pods-YKPushAndBackSegue_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKPushAndBackSegue_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		423C405E397D76E1BED6BCF8 /* Pods-YKPushAndBackSegue_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YKPushAndBackSegue_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E5789AF4AEB058B0807B28C /* Pods-YKPushAndBackSegue_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YKPushAndBackSegue_Tests-umbrella.h"; sourceTree = "<group>"; };
+		608BBA283B2D84F88905EBB7 /* YKPushAndBackSegue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKPushAndBackSegue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EB7362889CF1AB36E1465B /* Pods-YKPushAndBackSegue_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YKPushAndBackSegue_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68663DCA1B83FFAB58CE5F18 /* Pods-YKPushAndBackSegue_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YKPushAndBackSegue_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6C96AF089077777EB14D8F03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747C79D1CAB11E0611AB273E /* Pods-YKPushAndBackSegue_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YKPushAndBackSegue_Example-umbrella.h"; sourceTree = "<group>"; };
+		807BB0498BD7BFC6EEBDC96A /* Pods-YKPushAndBackSegue_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKPushAndBackSegue_Example.release.xcconfig"; sourceTree = "<group>"; };
+		80C38D732D4AFFF85A2A5024 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue.xcconfig"; sourceTree = "<group>"; };
+		8861B77301A369C829C8D24A /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue.modulemap"; sourceTree = "<group>"; };
+		887F01EC082D03EFD47B4348 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8C670B6350219AAD90823F /* YKPushAndBackSegue.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKPushAndBackSegue.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B456A86B5774EC7872DACF5 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-Private.xcconfig"; path = "../Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-Private.xcconfig"; sourceTree = "<group>"; };
+		8DB66DCACEBD808A1EB2A57F /* Pods-YKPushAndBackSegue_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKPushAndBackSegue_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92A4A8C3ABBD3CAD06354813 /* Pods-YKPushAndBackSegue_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YKPushAndBackSegue_Tests.modulemap"; sourceTree = "<group>"; };
+		98C507D46D7C31F1E6EB7D9D /* Pods-YKPushAndBackSegue_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YKPushAndBackSegue_Tests-resources.sh"; sourceTree = "<group>"; };
+		A26657CF405174578D27F420 /* Pods-YKPushAndBackSegue_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YKPushAndBackSegue_Example.modulemap"; sourceTree = "<group>"; };
+		A86771DD10D53D396B63E64D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBE9D830C0789CBC64034D2 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-dummy.m"; sourceTree = "<group>"; };
+		ABFE22B2F44EB505551ED020 /* Pods-YKPushAndBackSegue_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YKPushAndBackSegue_Example-dummy.m"; sourceTree = "<group>"; };
+		AF2C095349A89FC7AE6D86C1 /* Pods-YKPushAndBackSegue_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YKPushAndBackSegue_Tests-environment.h"; sourceTree = "<group>"; };
+		B1C8BC9B154D4860097709A9 /* Pods-YKPushAndBackSegue_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YKPushAndBackSegue_Tests-dummy.m"; sourceTree = "<group>"; };
+		B685AF611B8A7D2B003EDFA6 /* BackSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackSegue.h; sourceTree = "<group>"; };
+		B685AF621B8A7D2B003EDFA6 /* BackSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackSegue.m; sourceTree = "<group>"; };
+		B685AF631B8A7D2B003EDFA6 /* PushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushSegue.h; sourceTree = "<group>"; };
+		B685AF641B8A7D2B003EDFA6 /* PushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushSegue.m; sourceTree = "<group>"; };
+		B84B41604596C8E921C1B0D0 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.xcconfig"; path = "../Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.xcconfig"; sourceTree = "<group>"; };
+		BCE36530683D6B5358CB63EA /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-prefix.pch"; sourceTree = "<group>"; };
+		C2BE904A9D0F8F427847A965 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.modulemap"; path = "../Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.modulemap"; sourceTree = "<group>"; };
+		CC87F143E6DCDE3A594D5A3E /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-dummy.m"; path = "../Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-dummy.m"; sourceTree = "<group>"; };
+		D28FF49723B5C7A15959BE10 /* Pods-YKPushAndBackSegue_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YKPushAndBackSegue_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2FC6D6DE105CB61E077195A /* Pods-YKPushAndBackSegue_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YKPushAndBackSegue_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7A45FE1E5D2FC57F6C5238B /* Pods-YKPushAndBackSegue_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YKPushAndBackSegue_Example-environment.h"; sourceTree = "<group>"; };
+		ECD0AFB1ACD487C3248E4509 /* Pods-YKPushAndBackSegue_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKPushAndBackSegue_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED8ED78335E2750D36BC8023 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-prefix.pch"; path = "../Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-prefix.pch"; sourceTree = "<group>"; };
+		FB32C166579B40026AD3892B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		194DC95858BA36CA5F97CDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54C58E2E279D0CEBEC6D08A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420654EDAD452D02967CB184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2591C2A2331450DA1FEA461A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53BCAAEE3A8695A309BE636D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17ED0250364701F729F28DB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5C70D797358FA13C3E9EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB05C122DF3B4A6BB375FF86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8342955C6D2EEE3DA10CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0353D5BA88C024CE695ED5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F7F3E4484504EFF8801F37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C96AF089077777EB14D8F03 /* Info.plist */,
+				FB32C166579B40026AD3892B /* Info.plist */,
+				8861B77301A369C829C8D24A /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue.modulemap */,
+				80C38D732D4AFFF85A2A5024 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue.xcconfig */,
+				15A06B37874E913FB90FA0DA /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-Private.xcconfig */,
+				ABBE9D830C0789CBC64034D2 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-dummy.m */,
+				BCE36530683D6B5358CB63EA /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-prefix.pch */,
+				036E341CEA6FDE5CCBD76AB5 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-umbrella.h */,
+				C2BE904A9D0F8F427847A965 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.modulemap */,
+				B84B41604596C8E921C1B0D0 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.xcconfig */,
+				8B456A86B5774EC7872DACF5 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-Private.xcconfig */,
+				CC87F143E6DCDE3A594D5A3E /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-dummy.m */,
+				ED8ED78335E2750D36BC8023 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-prefix.pch */,
+				2AFD7F3D698B1B5629812167 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue";
+			sourceTree = "<group>";
+		};
+		1811FC3D85AE51996F697B63 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				844809BAF958AF684F04E076 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		21F6DB3ACA45F6482C634645 /* Pods-YKPushAndBackSegue_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A86771DD10D53D396B63E64D /* Info.plist */,
+				A26657CF405174578D27F420 /* Pods-YKPushAndBackSegue_Example.modulemap */,
+				62EB7362889CF1AB36E1465B /* Pods-YKPushAndBackSegue_Example-acknowledgements.markdown */,
+				423C405E397D76E1BED6BCF8 /* Pods-YKPushAndBackSegue_Example-acknowledgements.plist */,
+				ABFE22B2F44EB505551ED020 /* Pods-YKPushAndBackSegue_Example-dummy.m */,
+				E7A45FE1E5D2FC57F6C5238B /* Pods-YKPushAndBackSegue_Example-environment.h */,
+				1EADFA423ABC548AF37E7EAB /* Pods-YKPushAndBackSegue_Example-frameworks.sh */,
+				1C5031BB166CCD2BAF4DF215 /* Pods-YKPushAndBackSegue_Example-resources.sh */,
+				747C79D1CAB11E0611AB273E /* Pods-YKPushAndBackSegue_Example-umbrella.h */,
+				ECD0AFB1ACD487C3248E4509 /* Pods-YKPushAndBackSegue_Example.debug.xcconfig */,
+				807BB0498BD7BFC6EEBDC96A /* Pods-YKPushAndBackSegue_Example.release.xcconfig */,
+			);
+			name = "Pods-YKPushAndBackSegue_Example";
+			path = "Target Support Files/Pods-YKPushAndBackSegue_Example";
+			sourceTree = "<group>";
+		};
+		2CD3113361958B0630A82BEC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B90DBDD334B89A423890093 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		320B86557DB11297207AABDF /* Pods-YKPushAndBackSegue_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				887F01EC082D03EFD47B4348 /* Info.plist */,
+				92A4A8C3ABBD3CAD06354813 /* Pods-YKPushAndBackSegue_Tests.modulemap */,
+				D28FF49723B5C7A15959BE10 /* Pods-YKPushAndBackSegue_Tests-acknowledgements.markdown */,
+				E2FC6D6DE105CB61E077195A /* Pods-YKPushAndBackSegue_Tests-acknowledgements.plist */,
+				B1C8BC9B154D4860097709A9 /* Pods-YKPushAndBackSegue_Tests-dummy.m */,
+				AF2C095349A89FC7AE6D86C1 /* Pods-YKPushAndBackSegue_Tests-environment.h */,
+				68663DCA1B83FFAB58CE5F18 /* Pods-YKPushAndBackSegue_Tests-frameworks.sh */,
+				98C507D46D7C31F1E6EB7D9D /* Pods-YKPushAndBackSegue_Tests-resources.sh */,
+				5E5789AF4AEB058B0807B28C /* Pods-YKPushAndBackSegue_Tests-umbrella.h */,
+				3E9FF31985509DE10BE0DC34 /* Pods-YKPushAndBackSegue_Tests.debug.xcconfig */,
+				8DB66DCACEBD808A1EB2A57F /* Pods-YKPushAndBackSegue_Tests.release.xcconfig */,
+			);
+			name = "Pods-YKPushAndBackSegue_Tests";
+			path = "Target Support Files/Pods-YKPushAndBackSegue_Tests";
+			sourceTree = "<group>";
+		};
+		5D9842DCA15278A865709987 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74F6FAE38FD65BBFA58C7E05 /* YKPushAndBackSegue */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F191CEC9F57E7EFABC12104 = {
+			isa = PBXGroup;
+			children = (
+				0392780E9DE442A18496CA9E /* Podfile */,
+				5D9842DCA15278A865709987 /* Development Pods */,
+				F88DF1B7FA8EDD59892378C9 /* Frameworks */,
+				A5983598F02B50FF970A1872 /* Products */,
+				C63ADEFD968E33CCB6B7F8FC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		74F6FAE38FD65BBFA58C7E05 /* YKPushAndBackSegue */ = {
+			isa = PBXGroup;
+			children = (
+				1811FC3D85AE51996F697B63 /* Pod */,
+				07F7F3E4484504EFF8801F37 /* Support Files */,
+			);
+			name = YKPushAndBackSegue;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		844809BAF958AF684F04E076 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B685AF611B8A7D2B003EDFA6 /* BackSegue.h */,
+				B685AF621B8A7D2B003EDFA6 /* BackSegue.m */,
+				B685AF631B8A7D2B003EDFA6 /* PushSegue.h */,
+				B685AF641B8A7D2B003EDFA6 /* PushSegue.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5983598F02B50FF970A1872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257C4CA0C09AF6F0079B9C6D /* Pods_YKPushAndBackSegue_Example.framework */,
+				1E159FF2DBDAF3F84BFE6F7E /* Pods_YKPushAndBackSegue_Tests.framework */,
+				8A8C670B6350219AAD90823F /* YKPushAndBackSegue.bundle */,
+				14BD12024F6B84CA8662B402 /* YKPushAndBackSegue.bundle */,
+				608BBA283B2D84F88905EBB7 /* YKPushAndBackSegue.framework */,
+				3496392910C0ADC0822DF646 /* YKPushAndBackSegue.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63ADEFD968E33CCB6B7F8FC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F6DB3ACA45F6482C634645 /* Pods-YKPushAndBackSegue_Example */,
+				320B86557DB11297207AABDF /* Pods-YKPushAndBackSegue_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F88DF1B7FA8EDD59892378C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3113361958B0630A82BEC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1239A9F2298CC7028819E681 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83C00D67EB1CF311572C968 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD1999E1F6C0AFBF68D2D5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A002EDE61CEF8F4F54C2E8 /* Pods-YKPushAndBackSegue_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A555E5241DAFE3853968CD72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E10E9CD6F6C752F6EF029F /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3A8E20470354CE55E1F814 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230610BA9EA08B51ED45EA65 /* Pods-YKPushAndBackSegue_Example-umbrella.h in Headers */,
+				B685AF671B8A7D2B003EDFA6 /* PushSegue.h in Headers */,
+				B685AF651B8A7D2B003EDFA6 /* BackSegue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		355CECF9C01BEAF51DA3C4D8 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-YKPushAndBackSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C2589123A2CDD6F684F650 /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-YKPushAndBackSegue" */;
+			buildPhases = (
+				3B05C6A1DEAABEC7BF5B26B1 /* Sources */,
+				B0353D5BA88C024CE695ED5C /* Frameworks */,
+				9F88C14A49E19A31815A6391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-YKPushAndBackSegue";
+			productName = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-YKPushAndBackSegue";
+			productReference = 14BD12024F6B84CA8662B402 /* YKPushAndBackSegue.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6677D932A3ECA3AB623E707E /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C399D5114D3DC6716F3B80C /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue" */;
+			buildPhases = (
+				0973509B8D16474155235FD7 /* Sources */,
+				194DC95858BA36CA5F97CDEE /* Frameworks */,
+				D3A707D9BC735F88925D2FCE /* Resources */,
+				1239A9F2298CC7028819E681 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E8B8C9EF9ADC30813D7F885 /* PBXTargetDependency */,
+			);
+			name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue";
+			productName = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue";
+			productReference = 608BBA283B2D84F88905EBB7 /* YKPushAndBackSegue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81AF495CAEC0E5465C0245B4 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC0E9DF49212D342062BD78 /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue" */;
+			buildPhases = (
+				232343D588F48544AD6EFADF /* Sources */,
+				420654EDAD452D02967CB184 /* Frameworks */,
+				4886A88BAA6938091CD4C806 /* Resources */,
+				A555E5241DAFE3853968CD72 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E1F1DDB7458BE60AC045655 /* PBXTargetDependency */,
+			);
+			name = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue";
+			productName = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue";
+			productReference = 3496392910C0ADC0822DF646 /* YKPushAndBackSegue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADC0CB4ED7B58564C1752AC7 /* Pods-YKPushAndBackSegue_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317126EBD527EE56B3990223 /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Example" */;
+			buildPhases = (
+				106FDDF7AC91BD49357F6D69 /* Sources */,
+				53BCAAEE3A8695A309BE636D /* Frameworks */,
+				FC3A8E20470354CE55E1F814 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2C5C23471EB04C792A5B21 /* PBXTargetDependency */,
+			);
+			name = "Pods-YKPushAndBackSegue_Example";
+			productName = "Pods-YKPushAndBackSegue_Example";
+			productReference = 257C4CA0C09AF6F0079B9C6D /* Pods_YKPushAndBackSegue_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB4C51838DF3BD49789208AE /* Pods-YKPushAndBackSegue_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB4FC7CCB148F1DC9A664BC /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Tests" */;
+			buildPhases = (
+				AB695B494F4C51F67A2B9F14 /* Sources */,
+				7B5C70D797358FA13C3E9EE5 /* Frameworks */,
+				7FD1999E1F6C0AFBF68D2D5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BFA775A869F04102FA716C /* PBXTargetDependency */,
+			);
+			name = "Pods-YKPushAndBackSegue_Tests";
+			productName = "Pods-YKPushAndBackSegue_Tests";
+			productReference = 1E159FF2DBDAF3F84BFE6F7E /* Pods_YKPushAndBackSegue_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F304819C803265FA523271FF /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-YKPushAndBackSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D1DEDCA516AFBA31F8458 /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-YKPushAndBackSegue" */;
+			buildPhases = (
+				3D26D5AA8E242F191A7AD7C7 /* Sources */,
+				8D8342955C6D2EEE3DA10CBD /* Frameworks */,
+				5D7CCECC5CD50575E29FBA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-YKPushAndBackSegue";
+			productName = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-YKPushAndBackSegue";
+			productReference = 8A8C670B6350219AAD90823F /* YKPushAndBackSegue.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037C7614DBDBC31FCF4D8258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 46564CC55A6D56D386C079CA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F191CEC9F57E7EFABC12104;
+			productRefGroup = A5983598F02B50FF970A1872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC0CB4ED7B58564C1752AC7 /* Pods-YKPushAndBackSegue_Example */,
+				81AF495CAEC0E5465C0245B4 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue */,
+				F304819C803265FA523271FF /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-YKPushAndBackSegue */,
+				DB4C51838DF3BD49789208AE /* Pods-YKPushAndBackSegue_Tests */,
+				6677D932A3ECA3AB623E707E /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue */,
+				355CECF9C01BEAF51DA3C4D8 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-YKPushAndBackSegue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4886A88BAA6938091CD4C806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8561A730D10B4CF9A7E0AD48 /* YKPushAndBackSegue.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7CCECC5CD50575E29FBA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F88C14A49E19A31815A6391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A707D9BC735F88925D2FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA5F20347A38969BCE2E488 /* YKPushAndBackSegue.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0973509B8D16474155235FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E80E8B098B236EFD9089EF8 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106FDDF7AC91BD49357F6D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B685AF661B8A7D2B003EDFA6 /* BackSegue.m in Sources */,
+				B685AF681B8A7D2B003EDFA6 /* PushSegue.m in Sources */,
+				A86A430D7DAA3C8EFFD5D4E4 /* Pods-YKPushAndBackSegue_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232343D588F48544AD6EFADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D2FDAD75C56F1360E11BBF /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B05C6A1DEAABEC7BF5B26B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D26D5AA8E242F191A7AD7C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB695B494F4C51F67A2B9F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722EA45CB037D10FA844B4DC /* Pods-YKPushAndBackSegue_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E1F1DDB7458BE60AC045655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-YKPushAndBackSegue";
+			target = F304819C803265FA523271FF /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-YKPushAndBackSegue */;
+			targetProxy = D82669F0898643D65DFE802B /* PBXContainerItemProxy */;
+		};
+		9E8B8C9EF9ADC30813D7F885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-YKPushAndBackSegue";
+			target = 355CECF9C01BEAF51DA3C4D8 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-YKPushAndBackSegue */;
+			targetProxy = E466A5069033E3B81F8B3208 /* PBXContainerItemProxy */;
+		};
+		AF2C5C23471EB04C792A5B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue";
+			target = 81AF495CAEC0E5465C0245B4 /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue */;
+			targetProxy = 30C3955B23D747A0ABEA3F56 /* PBXContainerItemProxy */;
+		};
+		F1BFA775A869F04102FA716C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue";
+			target = 6677D932A3ECA3AB623E707E /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue */;
+			targetProxy = DA3CBBDA4D42A0C3686C079A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E2BABA15408487A20A06DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBF1419607479C3999F8B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB66DCACEBD808A1EB2A57F /* Pods-YKPushAndBackSegue_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Tests/Pods-YKPushAndBackSegue_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YKPushAndBackSegue_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30BE8817D6E0D9495AA738B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34EA617086F5EE96D33854F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A06B37874E913FB90FA0DA /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YKPushAndBackSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B8C6D20CB1C22A8696C37EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9FF31985509DE10BE0DC34 /* Pods-YKPushAndBackSegue_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Tests/Pods-YKPushAndBackSegue_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YKPushAndBackSegue_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C3DF75E030B80163959D26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B456A86B5774EC7872DACF5 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YKPushAndBackSegue_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YKPushAndBackSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		511B1F06A6EFD6B253B9FCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B456A86B5774EC7872DACF5 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YKPushAndBackSegue_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YKPushAndBackSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		801F9DF1B1B1C4A129ADB390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A06B37874E913FB90FA0DA /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YKPushAndBackSegue_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YKPushAndBackSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8D31D5A90CA31ED9DA7FCE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807BB0498BD7BFC6EEBDC96A /* Pods-YKPushAndBackSegue_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Example/Pods-YKPushAndBackSegue_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YKPushAndBackSegue_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92417086102E5E51D6DB4E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A06B37874E913FB90FA0DA /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YKPushAndBackSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7D8BA5FBA7FA6549DA77823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A06B37874E913FB90FA0DA /* Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YKPushAndBackSegue_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YKPushAndBackSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C0898A0896023825C0FDB5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD0AFB1ACD487C3248E4509 /* Pods-YKPushAndBackSegue_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Example/Pods-YKPushAndBackSegue_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YKPushAndBackSegue_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4EE3C79211368AA5E0FC493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B456A86B5774EC7872DACF5 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YKPushAndBackSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7CA5933B82BE773AF111F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B456A86B5774EC7872DACF5 /* Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue/Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YKPushAndBackSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C399D5114D3DC6716F3B80C /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CA5933B82BE773AF111F9D /* Debug */,
+				C4EE3C79211368AA5E0FC493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		317126EBD527EE56B3990223 /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0898A0896023825C0FDB5A7 /* Debug */,
+				8D31D5A90CA31ED9DA7FCE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46564CC55A6D56D386C079CA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BE8817D6E0D9495AA738B0 /* Debug */,
+				02E2BABA15408487A20A06DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC0E9DF49212D342062BD78 /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92417086102E5E51D6DB4E31 /* Debug */,
+				34EA617086F5EE96D33854F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB4FC7CCB148F1DC9A664BC /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8C6D20CB1C22A8696C37EB /* Debug */,
+				2FBF1419607479C3999F8B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D1DEDCA516AFBA31F8458 /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Example-YKPushAndBackSegue-YKPushAndBackSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D8BA5FBA7FA6549DA77823 /* Debug */,
+				801F9DF1B1B1C4A129ADB390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5C2589123A2CDD6F684F650 /* Build configuration list for PBXNativeTarget "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-YKPushAndBackSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511B1F06A6EFD6B253B9FCAF /* Debug */,
+				4C3DF75E030B80163959D26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037C7614DBDBC31FCF4D8258 /* Project object */;
+}

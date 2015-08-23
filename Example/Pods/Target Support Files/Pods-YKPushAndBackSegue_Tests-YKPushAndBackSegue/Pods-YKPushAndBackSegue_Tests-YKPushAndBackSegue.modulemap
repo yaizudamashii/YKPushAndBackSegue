@@ -1,0 +1,6 @@
+framework module YKPushAndBackSegue {
+  umbrella header "Pods-YKPushAndBackSegue_Tests-YKPushAndBackSegue-umbrella.h"
+
+  export *
+  module * { export * }
+}

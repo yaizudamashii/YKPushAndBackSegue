@@ -1,0 +1,14 @@
+PODS:
+  - YKPushAndBackSegue (0.1.0)
+
+DEPENDENCIES:
+  - YKPushAndBackSegue (from `../`)
+
+EXTERNAL SOURCES:
+  YKPushAndBackSegue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YKPushAndBackSegue: 2e5f94a398c3ee07870ca6009368254d29132450
+
+COCOAPODS: 0.37.2
