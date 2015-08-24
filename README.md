@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/YKPushAndBackSegue.svg?style=flat)](http://cocoapods.org/pods/YKPushAndBackSegue)
 [![Platform](https://img.shields.io/cocoapods/p/YKPushAndBackSegue.svg?style=flat)](http://cocoapods.org/pods/YKPushAndBackSegue)
 
+[![YKPushAndBackSegue animation](http://i.imgur.com/83u7arT.gif)](http://i.imgur.com/83u7arT.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
